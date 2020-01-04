@@ -9,29 +9,35 @@
     <title>Loja test</title>
 </head>
 <body>
-    <header>
-        <div class="container-icon">
-            <i class="fas fa-radiation"></i>
-            <span>Loja Teste</span>
-        </div>
-        <div class="container-search">
-            <input type="text" placeholder="Pesquisar">
-            <i class="fas fa-search"></i>
-        </div>
-        <span><a href="#">Entre</a> ou <a href="#">cadastre-se</a></span>
-        <div class="container-shop">
-            <i class="fas fa-shopping-cart"></i>
-            <div class="circle">0</div>
-        </div>
-        <div class="container-index-page">
+    <header id="header">
+        <div class="container-flex">
+            <div class="container-logo">
+                <i class="logo fas fa-radiation fa-5x"></i>
+                <p class="logo-title">Loja Teste</p>
+            </div>
+            <div class="container-flex">
+                <div class="container-search">
+                    <input type="text" placeholder="Pesquisar">
+                    <i class="fas fa-search search"></i>
+                </div>
+                <span class="sing-in"><a href="#">Entre </a> ou <a href="#"> cadastre-se</a></span>
+                <div class="container-shop">
+                    <i class="fas fa-shopping-cart cart"></i>
+                    <div class="circle">0</div>
+                </div>
+            </div>
+        </div>        
+    </header>
+    <section id="menu">
+        <div class="container-menu-page">
             <span><a href="#">HOME/ </a><a href="#">CALÇADOS/ </a><a>PRODUTO ABC</a></span>
         </div>
-    </header>
+    </section>
     <main>
         <div class="container-image">
             <img src="/img/adidasPreto.png" alt="Tênis adidas clássico preto com listras brancas">
         </div>
-        <section>
+        <section id="prod-text">
             <div class="container-desc">
                 <h1>Produto ABC</h1>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, magni voluptas dolores, ut ab, rerum velit dolor adipisci culpa hic corrupti! Quasi nam voluptatibus minima iste iusto. Ratione, iure culpa?</p>
@@ -42,13 +48,12 @@
                 <p>no boleto com<br/>10% de desconto</p>
             </div>
             <div class="container-rating">
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star"></span>
-
-                    <span>Avalie agora</span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span>Avalie agora</span>
             </div>
             <button><i class="fas fa-check"></i> COMPRAR</button>
             <div class="container-comment">
