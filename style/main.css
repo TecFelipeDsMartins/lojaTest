@@ -109,18 +109,17 @@ input{
 }
 
 .container-menu-page{
-    width: 100%;
-    height: 30px;
+    height: 40px;
     background-color: rgb(212, 209, 209);
     padding: 20px 150px 10px 150px;
     font-size: 15px
 }
 
-.unselected{
+.menu-unselected{
     color: rgb(255, 255, 255);
 }
 
-.selected{
+.menu-selected{
     color: rgb(92, 92, 92);
 }
 
@@ -157,12 +156,18 @@ input{
     font-family: 'Open Sans', sans-serif;
 }
 
-h1{
-    font-size: 40px
+.product-name{
+    font-size: 40px;
+    
 }
 
-del{
+.product-desc{
+    margin-bottom: 50px
+}
+
+.price-del{
     color: rgb(133, 133, 133);
+    font-size: 15px
 }
 
 .promo-price{
@@ -182,11 +187,11 @@ del{
     margin-bottom: 20px
 }
 
-.checked{
+.star-checked{
     color: rgb(245, 245, 66);
 }
 
-.unchecked{
+.star-unchecked{
     color:rgb(211, 211, 211);
 }
 
@@ -208,4 +213,43 @@ del{
     background-color: rgb(50, 136, 44);
     box-shadow: inset  2px 2px 6px rgb(0, 168, 0),
                 inset  -2px -2px 6px rgb(0, 110, 0);
+}
+
+.nav-footer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row
+}
+
+.btn-nav-footer{
+    border: none;
+    width: 180px;
+    height: 60px;
+    padding: 0px 0px;
+    margin: 0px 1px 0px 0px;
+    font-size: 15px
+}
+
+.nav-footer-checked{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255)
+}
+
+.div-nav-content{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.nav-footer-name{
+   padding: 25px;
+   color: rgb(255, 255, 255)
+}
+
+.para-nav-footer{
+    color:rgb(230, 230, 230);
+    margin: 0;
 }

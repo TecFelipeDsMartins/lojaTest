@@ -30,7 +30,7 @@
     </header>
     <section id="menu">
         <div class="container-menu-page">
-            <span class="menu-page"><a class="unselected" href="#">HOME/ </a><a class="unselected" href="#">CALÇADOS/ </a><a class="selected">PRODUTO ABC</a></span>
+            <span class="menu-page"><a class="menu-unselected" href="#">HOME/ </a><a class="menu-unselected" href="#">CALÇADOS/ </a><a class="menu-selected">PRODUTO ABC</a></span>
         </div>
     </section>
     <main id="main">
@@ -39,21 +39,21 @@
         </div>
         <section id="prod-text">
             <div class="container-desc">
-                <h1>Produto ABC</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed molestias accusantium alias fugiat, odit voluptatibus distinctio culpa et nostrum doloremque maxime error iure in ad, consequuntur nemo nisi sit! Maiores nostrum asperiores beatae dolores debitis soluta quia mollitia nemo reiciendis?</p>
+                <h1 class="product-name">Produto ABC</h1>
+                <p class="product-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed molestias accusantium alias fugiat, odit voluptatibus distinctio culpa et nostrum doloremque maxime error iure in ad, consequuntur nemo nisi sit! Maiores nostrum asperiores beatae dolores debitis soluta quia mollitia nemo reiciendis?</p>
             </div>
             <div class="container-price">
-                <del>R$199,00</del>
+                <del class="price-del">R$199,00</del>
                 <br>
-                <strong class="promo-price">R$159,00</strong>
+                <strong class="promo-price">R$ 159,00</strong>
                 <p class="p-percent">no boleto com<br/>10% de desconto</p>
             </div>
             <div class="container-rating">
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star unchecked"></span>
+                <span class="fa fa-star star-checked"></span>
+                <span class="fa fa-star star-checked"></span>
+                <span class="fa fa-star star-checked"></span>
+                <span class="fa fa-star star-checked"></span>
+                <span class="fa fa-star star-unchecked"></span>
                 <span class="btn-rating">Avalie agora</span>
             </div>
             <button class="btn-buy"><i class="fas fa-check"></i> COMPRAR</button>
@@ -71,12 +71,13 @@
     </main>
     <footer>
         <div class="nav-footer">
-            <button class="btn-nav ">DESCRIÇÃO</button>
-            <button class="btn-nav ">ITENS INCLUSOS</button>
-            <button class="btn-nav ">GARANTIA</button>
+            <button class="btn-nav-footer ">DESCRIÇÃO</button>
+            <button class="btn-nav-footer ">ITENS INCLUSOS</button>
+            <button class="btn-nav-footer ">GARANTIA</button>
         </div>
-        <div class="btn-nav-content" id="div-content">
+        <div class="div-nav-content" id="div-nav-content">
             <!-- content created with javascript -->
+            
         </div>
     </footer>
 </body>
