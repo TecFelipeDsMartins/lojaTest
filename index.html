@@ -30,36 +30,42 @@
     </header>
     <section id="menu">
         <div class="container-menu-page">
-            <span><a href="#">HOME/ </a><a href="#">CALÇADOS/ </a><a>PRODUTO ABC</a></span>
+            <span class="menu-page"><a class="unselected" href="#">HOME/ </a><a class="unselected" href="#">CALÇADOS/ </a><a class="selected">PRODUTO ABC</a></span>
         </div>
     </section>
-    <main>
+    <main id="main">
         <div class="container-image">
-            <img src="/img/adidasPreto.png" alt="Tênis adidas clássico preto com listras brancas">
+            <img id="img-shoes" src="/img/adidasPreto.png" alt="Tênis adidas clássico preto com listras brancas">
         </div>
         <section id="prod-text">
             <div class="container-desc">
                 <h1>Produto ABC</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, magni voluptas dolores, ut ab, rerum velit dolor adipisci culpa hic corrupti! Quasi nam voluptatibus minima iste iusto. Ratione, iure culpa?</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed molestias accusantium alias fugiat, odit voluptatibus distinctio culpa et nostrum doloremque maxime error iure in ad, consequuntur nemo nisi sit! Maiores nostrum asperiores beatae dolores debitis soluta quia mollitia nemo reiciendis?</p>
             </div>
             <div class="container-price">
                 <del>R$199,00</del>
-                <strong>R$159,00</strong>
-                <p>no boleto com<br/>10% de desconto</p>
+                <br>
+                <strong class="promo-price">R$159,00</strong>
+                <p class="p-percent">no boleto com<br/>10% de desconto</p>
             </div>
             <div class="container-rating">
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span>
-                <span>Avalie agora</span>
+                <span class="fa fa-star unchecked"></span>
+                <span class="btn-rating">Avalie agora</span>
             </div>
-            <button><i class="fas fa-check"></i> COMPRAR</button>
+            <button class="btn-buy"><i class="fas fa-check"></i> COMPRAR</button>
+            <br>
             <div class="container-comment">
                 <strong>Opinião:</strong>
+                <br>
+                <br>
                 <q>Adorei o produto, vou comprar outro em breve.</q>
-                <cite>Alberto Guerra</cite>
+                <br>
+                <br>
+                <cite>- Alberto Guerra</cite>
             </div>
         </section>
     </main>
