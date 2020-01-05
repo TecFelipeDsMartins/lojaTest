@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/6a3f17e292.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/style/main.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="/script/main.js"></script>
     <title>Loja test</title>
 </head>
 <body>
@@ -23,7 +25,7 @@
                 <span class="sing-in"><a href="#">Entre </a> ou <a href="#"> cadastre-se</a></span>
                 <div class="container-shop">
                     <i class="fas fa-shopping-cart cart"></i>
-                    <div class="circle">0</div>
+                    <div class="circle" id="shopCart">0</div>
                 </div>
             </div>
         </div>        
@@ -54,31 +56,33 @@
                 <span class="fa fa-star star-checked"></span>
                 <span class="fa fa-star star-checked"></span>
                 <span class="fa fa-star star-unchecked"></span>
-                <span class="btn-rating">Avalie agora</span>
+                <span id="btn-rating" class="btn-rating">Avalie agora</span>
             </div>
-            <button class="btn-buy"><i class="fas fa-check"></i> COMPRAR</button>
+            <button class="btn-buy" id="btn-buy"><i class="fas fa-check"></i> COMPRAR</button>
             <br>
             <div class="container-comment">
                 <strong>Opinião:</strong>
                 <br>
                 <br>
-                <q>Adorei o produto, vou comprar outro em breve.</q>
+                <q id="quote">Adorei o produto, vou comprar outro em breve.</q>
                 <br>
                 <br>
-                <cite>- Alberto Guerra</cite>
+                <cite id="cite">- Alberto Guerra</cite>
             </div>
         </section>
     </main>
     <footer>
         <div class="nav-footer">
-            <button class="btn-nav-footer ">DESCRIÇÃO</button>
-            <button class="btn-nav-footer ">ITENS INCLUSOS</button>
-            <button class="btn-nav-footer ">GARANTIA</button>
+            <button id="desc" class="btn-nav-footer nav-footer-checked">DESCRIÇÃO</button>
+            <button id="iten" class="btn-nav-footer ">ITENS INCLUSOS</button>
+            <button id="garan" class="btn-nav-footer ">GARANTIA</button>
         </div>
         <div class="div-nav-content" id="div-nav-content">
             <!-- content created with javascript -->
-            
+            <h2 class="product-nav-footer" id="product-nav-footer"></h2>
+            <p class="para-nav-footer" id="para-nav-footer"></p>
         </div>
     </footer>
 </body>
 </html>
+
